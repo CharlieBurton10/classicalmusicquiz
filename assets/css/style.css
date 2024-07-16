@@ -187,3 +187,51 @@ nav > a:hover {
 	color: whitesmoke;
     margin-top: 30px;
 }
+
+/* ----------------------------------------Media */
+
+
+@media screen and (max-width: 1024px) {
+    .page-header {
+        margin-top: 75px;
+        margin-bottom: 250px ;
+    }
+
+    body {
+        height: 150vh;
+    }  
+
+}
+
+@media screen and (max-width: 915px) {
+
+    body {
+        height: 230vh;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    body {
+        height: 165vh;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .page-header {
+        margin-top: 50px;
+        margin-bottom: 250px ;
+    }
+
+
+    body {
+        height: 125vh;
+    }  
+    
+    .footer {
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+}
