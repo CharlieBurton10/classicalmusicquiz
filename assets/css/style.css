@@ -162,6 +162,14 @@ nav > a:hover {
     margin-bottom: 0;
   }
 
+  .correct {
+    background-color: green;
+  }
+  
+  .incorrect {
+    background-color: red;
+  }
+
  /*------------------------------------------ Footer */
 
 .footer {

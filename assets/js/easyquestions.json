@@ -113,9 +113,9 @@
   }, {   
     "question": "Adagio refers to what kind of pace within a piece of music?",
     "choice1": "Quiet",
-    "B": "Fast",
-    "C": "Slow",
-    "D": "Loud",
+    "choice2": "Fast",
+    "choice3": "Slow",
+    "choice4": "Loud",
     "answer": "3"
   }, {   
     "question": "How many players are involved in a string quintet?",
