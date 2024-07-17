@@ -17,6 +17,10 @@ let url = window.location.href;
 let params = new URLSearchParams(window.location.search);
 let level = params.get("level");
 
+//Constants
+const CORRECT_BONUS = 10;
+const MAX_QUESTIONS = 5;
+
 if (level === "easy"){
     questions = easyquestions;
     startGame();
@@ -24,10 +28,6 @@ if (level === "easy"){
     questions = hardquestions;
     startGame();
 }
-
-//Constants
-const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 5;
 
 //Start Game
 function startGame() {
@@ -40,11 +40,13 @@ function startGame() {
 
 //Questions
 function getNewQuestion(){
+    console.log(MAX_QUESTIONS); // <--------------------------------------------------- and this
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         //go to the end page
-        return window.location.assign('/end.html');
+        return window.location.assign('end.html');
         }
     questionCounter++;
+    questionCounterText.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
