@@ -18,8 +18,8 @@
       <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
       <body>
         <div id="home">
-            <div class="container">
-                <div class="row no-gutters">
+            <div class="container page-header">
+                <div class="justify-center">
                     <!--Nav-->
                     <div class="col">
                         <nav class="nav-item">
@@ -28,15 +28,13 @@
                         </nav>
                     </div>
                 </div>
-            </div>
-            <div class="container page-header">
-                    <div class="text-center">
+                    <div class="justify-center text-center">
                         <!--Title-->
                         <div class="heading">
                             <br>
-                            <h1>Easy Classical Music Quiz</h1>
+                            <h1>Classical Music Quiz</h1>
                         </div>
-                        <div id="easy-quiz" class="text-center">
+                        <div id="quiz-box" class="text-center">
                             <div id="game" >
                                   <h6 id="question">Question goes here</h6>
                                   <br>
@@ -57,39 +55,48 @@
                                 <p class="answer-prefix">D: </p>
                                 <p class="answer-text" data-number="4"> Answer 4</p>
                               </div>
-                            <div>
-                                <p>
+
+                              <div id="hud">
+                                <div id="hud-item">
+                                  <p id="progressText" class="hud-prefix">
+                                    Question
+                                  </p>
+                                  <div id="progressBar">
+                                    <div id="progressBarFull"></div>
+                                  </div>
+                                </div>
+                                <div id="hud-item">
+                                  <p class="hud-prefix">
                                     Score
                                   </p>
-                                <h1 id="score">
+                                  <h1 class="hud-main-text" id="score">
                                     0
-                                </h1>
+                                  </h1>
+                                </div>
+                              </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
-                <div class="row">
                     <!--Footer-->
                     <div class="text-uppercase footer">
                         <span>Find us on:</span>
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                         <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
-                        <br>
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                         <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)">Instagram</a>
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                         <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a>
                         <p>Copyright © Classical Music Quiz 2024</p>
                     </div>
-                </div>
             </div>
         </div>
         <!--Scripts-->
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+        <script src="assets/js/easyquestions.js"></script>
+        <script src="assets/js/hardquestions.js"></script>
         <script src="assets/js/script.js"></script>
     </body>
 </html>

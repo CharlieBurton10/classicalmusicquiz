@@ -1,3 +1,4 @@
+/*jshint esversion: 11 */
 //Variables
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("answer-text"));
@@ -12,23 +13,24 @@ let availableQuestions = [];
 
 let questions = [];
 
-//Fetch
-fetch("assets/js/easyquestions.json")
-    .then((res) => {
-        return res.json();
-    })
-    .then((loadedQuestions) => {
-        questions = loadedQuestions;
-        console.log(loadedQuestions);
-        startGame();
-    });
+let url = window.location.href;
+let params = new URLSearchParams(window.location.search);
+let level = params.get("level");
+
+if (level === "easy"){
+    questions = easyquestions;
+    startGame();
+} else if (level === "hard"){
+    questions = hardquestions;
+    startGame();
+}
 
 //Constants
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 5;
 
 //Start Game
-startGame = () => {
+function startGame() {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
@@ -37,10 +39,18 @@ startGame = () => {
 };
 
 //Questions
-getNewQuestion = () => {
+function getNewQuestion(){
+    if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+        localStorage.setItem('mostRecentScore', score);
+        //go to the end page
+        return window.location.assign('end.html');
+    }
 
+    // Updates the progress bar
     questionCounter++;
-    
+    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+    progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
@@ -62,26 +72,29 @@ choices.forEach((choice) => {
 
         acceptingAnswers = false;
         const selectedChoice = e.target;
+        console.log(selectedChoice)
         const selectedAnswer = selectedChoice.dataset['number'];
 
         // Applies css styling for right or wrong answers choosen 
         const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+
+        selectedChoice.closest(".answer-container").classList.add(classToApply);
 
         // Increments players score for choosing the right answers
         if (classToApply === 'correct') {
             incrementScore(CORRECT_BONUS);
         }
 
-        selectedChoice.parentElement.classList.add(classToApply);
+
 
         setTimeout(() => {
-            selectedChoice.parentElement.classList.remove(classToApply);
+            selectedChoice.closest(".answer-container").classList.remove(classToApply);
             getNewQuestion();
-        }, 1000);
+        }, 1500);
     });
 });    
 
-incrementScore = (num) => {
+function incrementScore(num) {
     score += num;
     scoreText.innerText = score;
 };

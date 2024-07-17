@@ -13,12 +13,11 @@
         padding: 0;
         margin: 0;
         width: 100vw;
-        height: 100vh;
+        height: 95vh;
         background-image: url(../images/background.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        display: flex;
         justify-content: center;
         align-items: stretch;
         border: none;
@@ -67,10 +66,27 @@ nav > a:hover {
 }
 
 .container {
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 0;
-}
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-center {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
 
 /*------------------------------------------ Section */
 
@@ -88,6 +104,10 @@ nav > a:hover {
     margin-top: 30px;
     margin-bottom: 30px;
     align-items: center;
+}
+
+.rules{
+    margin-top: 150px;
 }
 
 .list {
@@ -117,7 +137,7 @@ nav > a:hover {
     border-color: grey;
 }
 
-#easy-quiz {
+#quiz-box {
     background: grey;
     width: 90%;
     max-width: 600px;
@@ -162,13 +182,6 @@ nav > a:hover {
     margin-bottom: 0;
   }
 
-  .correct {
-    background-color: green;
-  }
-  
-  .incorrect {
-    background-color: red;
-  }
 
  /*------------------------------------------ Footer */
 
@@ -225,7 +238,7 @@ nav > a:hover {
     }
 }
 
-@media screen and (max-width: 575.98px) {
+@media screen and (max-width: 575px) {
     .page-header {
         margin-top: 50px;
         margin-bottom: 250px ;
@@ -243,3 +256,46 @@ nav > a:hover {
     }
 
 }
+
+/* ----------------------------------CORRECT & INCORRECT */
+
+.correct {
+    background-image: linear-gradient(green, rgba(0, 128, 0, 0.539), green);
+  }
+  
+  .incorrect {
+    background-image: linear-gradient(red, rgba(255, 0, 0, 0.539), red);
+  }
+
+
+/* HUD */
+
+#hud {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .hud-prefix {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #56a5eb;
+  }
+  
+  .hud-main-text {
+    text-align: center;
+  }
+
+/* PROGRESS BAR */
+
+#progressBar {
+    width: 12rem;
+    height: 2rem;
+    border: 0.4rem solid #56a5eb;
+    margin-top: 1.5rem;
+  }
+  
+  #progressBarFull {
+    height: 1.6rem;
+    background-color: #56a5eb;
+    width: 0%;
+  }

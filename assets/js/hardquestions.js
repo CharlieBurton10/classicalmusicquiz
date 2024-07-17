@@ -1,4 +1,6 @@
-[{
+/*jshint esversion: 11 */
+const hardquestions = [
+  {
     "question": "Who wrote an incomplete 2 movement symphonic work commonly called the 'Unfinished' Symphony?",
     "choice1": "Schubert",
     "choice2": "Mozart",

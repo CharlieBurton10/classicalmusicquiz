@@ -1,4 +1,6 @@
-[{
+/*jshint esversion: 11 */
+const easyquestions = [
+  {
     "question": "Which is the highest voice?",
     "choice1": "Bass",
     "choice2": "Alto",
