@@ -44,11 +44,7 @@ function getNewQuestion(){
         //go to the end page
         return window.location.assign('/end.html');
         }
-
-    // Updates the progress bar
     questionCounter++;
-
-
 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
