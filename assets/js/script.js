@@ -35,13 +35,30 @@ function startGame() {
     score = 0;
     availableQuestions = [...questions];
     getNewQuestion();
-    console.log(availableQuestions);
+
 };
+
+// Countdown timer for quiz
+var timeLeft = 45;
+var timer = setInterval(function() {
+timeLeft--;
+document.getElementById('timer').textContent = timeLeft;
+if (timeLeft <= 0) {
+clearInterval(timer);
+alert('Time is up!');
+}
+}, 1000);
+
+/* Reset the time */
+resetTimer = () => {
+    time = questionTime;
+}
 
 //Questions
 function getNewQuestion(){
-    console.log(MAX_QUESTIONS); // <--------------------------------------------------- and this
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+        // Saves to local storage
+        localStorage.setItem('mostRecentScore', score);
         //go to the end page
         return window.location.assign('end.html');
         }
@@ -82,14 +99,12 @@ choices.forEach((choice) => {
             incrementScore(CORRECT_BONUS);
         }
 
-
-
         setTimeout(() => {
             selectedChoice.closest(".answer-container").classList.remove(classToApply);
             getNewQuestion();
         }, 1500);
     });
-});    
+});   
 
 function incrementScore(num) {
     score += num;
