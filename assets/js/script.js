@@ -5,13 +5,13 @@ const choices = Array.from(document.getElementsByClassName("answer-text"));
 const questionCounterText = document.getElementById("questionCounter");
 const scoreText = document.getElementById("score");
 
+
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
-let questions = [];
 
 let url = window.location.href;
 let params = new URLSearchParams(window.location.search);
@@ -35,7 +35,7 @@ function startGame() {
     score = 0;
     availableQuestions = [...questions];
     getNewQuestion();
-
+    setTimer = true;
 };
 
 // Countdown timer for quiz
@@ -47,12 +47,14 @@ if (timeLeft <= 0) {
 clearInterval(timer);
 alert('Time is up!');
 }
+var setTimer = true;
+if (setTimer) {
+    true > timer;
+} else ( timeLeft = 0); 
 }, 1000);
 
-/* Reset the time */
-resetTimer = () => {
-    time = questionTime;
-}
+
+
 
 //Questions
 function getNewQuestion(){
