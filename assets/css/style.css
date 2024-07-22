@@ -211,49 +211,6 @@ nav > a:hover {
 
 /* ----------------------------------------Media */
 
-
-/*@media screen and (max-width: 1024px) {
-    .page-header {
-        margin-top: 75px;
-        margin-bottom: 250px ;
-    }
-
-    body {
-        height: 150vh;
-    }  
-
-}
-
-@media screen and (max-width: 915px) {
-
-    body {
-        height: 230vh;
-    }
-}
-
-
-
-@media screen and (max-width: 575px) {
-    .page-header {
-        margin-top: 50px;
-        margin-bottom: 250px ;
-    }
-
-
-    body {
-        height: 125vh;
-    }  
-    
-    .footer {
-        margin-top: 50px;
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-
-}
-
-/* MEDIA QUERY  */
-
 @media screen and (max-width: 575px) {
     h1 {
       font-size: 3rem;
