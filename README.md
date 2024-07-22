@@ -13,7 +13,7 @@
 * [Rationale](#rationale)
 
 * [User Experience](#user-experience-ux)
-  * [Intitial Discussion](#intitial-discussion)
+  * [Site Goals](#site-goals)
   * [User Stories](#user-stories)
 
 * [Design](#design)
@@ -53,26 +53,14 @@ With a 40 questions spread over 2 levels of difficulty, easy or hard, the user w
 
 ## User Experience (UX)
 
-### Intitial Discussion
-Waggy Tail Lodge have decide to expand their customer base with a website. They want a website to make a better customer experience and to help attract new customers. They also want to move their booking system online instead of customers phoning there booking through.
-
-#### Key information for the site
-* What are the facilities.
-* About the owners.
-* Testimonials from current customers.
-* Information on services and prices
-* Contact and location details.
-* Online booking system.
+### Site Goals
+* To be able to view the site on a range of device sizes.
+* I want the site to be attractive, responsive and easy to use for the user.
+* I want the site to work as intended incrementing the questions and score as the user progresses, with the timer going down for each question.
+* I want the user to have a varied choice of questions.
+* To make it user friendly and for all ages.
 
 ### User Stories
-
-#### Owner Goals
-
-* To be able to view the site on a range of device sizes.
-* To make it easy for potential customers to find out what services they offer.
-* To make it clear for current customers on updated prices.
-* To allow customers to book online, to make the owners time more efficient.
-* To make it user friendly and for all ages.
 
 #### First Time Customers Goals
 

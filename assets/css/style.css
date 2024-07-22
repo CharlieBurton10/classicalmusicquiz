@@ -173,6 +173,10 @@ nav > a:hover {
     margin-bottom: 0;
   }
 
+  .form-row {
+    padding: 2px;
+  }
+
 
  /*------------------------------------------ Footer */
 
@@ -233,7 +237,7 @@ nav > a:hover {
       font-size: small;
   }
   .footer {
-    margin-top: 150px;
+    margin-top: 80px;
   }
     h1, h2 {
     font-size: 18px;
