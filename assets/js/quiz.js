@@ -5,13 +5,11 @@ const choices = Array.from(document.getElementsByClassName("answer-text"));
 const questionCounterText = document.getElementById("questionCounter");
 const scoreText = document.getElementById("score");
 
-
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
-
 
 let url = window.location.href;
 let params = new URLSearchParams(window.location.search);
@@ -54,9 +52,6 @@ if (setTimer) {
     true > timer;
 } else ( timeLeft = 0); 
 }, 1000);
-
-
-
 
 //Questions
 function getNewQuestion(){

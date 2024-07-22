@@ -212,7 +212,7 @@ nav > a:hover {
 /* ----------------------------------------Media */
 
 
-@media screen and (max-width: 1024px) {
+/*@media screen and (max-width: 1024px) {
     .page-header {
         margin-top: 75px;
         margin-bottom: 250px ;
@@ -231,12 +231,7 @@ nav > a:hover {
     }
 }
 
-@media screen and (max-width: 720px) {
 
-    body {
-        height: 165vh;
-    }
-}
 
 @media screen and (max-width: 575px) {
     .page-header {
@@ -255,6 +250,47 @@ nav > a:hover {
         margin-right: 50px;
     }
 
+}
+
+/* MEDIA QUERY  */
+
+@media screen and (max-width: 575px) {
+    h1 {
+      font-size: 3rem;
+    }
+  
+    h2 {
+      font-size: 2rem;
+    }
+  
+    .timer {
+      font-size: 2rem;
+    }
+
+    .page-header {
+        margin-top: 25px;
+        margin-bottom: 100px ;
+    }
+
+    .rules{
+        margin-top: 15px;
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+
+    body {
+        height: 95vh;
+    }
+
+    .page-header {
+        margin-top: 40px;
+        margin-bottom: 50px ;
+    }
+
+    .rules{
+        margin-top: 75px;
+    }
 }
 
 /* ----------------------------------CORRECT & INCORRECT */

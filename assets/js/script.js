@@ -4,7 +4,6 @@ let url = window.location.href;
 let params = new URLSearchParams(window.location.search);
 let level = params.get("level");
 
-
 if (level === "easy"){
     questions = easyquestions;
     startGame();
