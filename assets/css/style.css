@@ -13,7 +13,7 @@
         padding: 0;
         margin: 0;
         width: 100vw;
-        height: 95vh;
+        height: 100vh;
         background-image: url(../images/background.jpg);
         background-position: center;
         background-repeat: no-repeat;
@@ -100,7 +100,7 @@ nav > a:hover {
 
 .page-header {
 	height: 70vh;
-	background: center 75% / cover no-repeat;
+	background: center 85% / cover no-repeat;
     margin-top: 30px;
     margin-bottom: 30px;
     align-items: center;
@@ -210,31 +210,6 @@ nav > a:hover {
 }
 
 /* ----------------------------------------Media */
-
-
-/*@media screen and (max-width: 480px) {
-    h1 {
-      font-size: 3rem;
-    }
-  
-    h2 {
-      font-size: 2rem;
-    }
-  
-    .timer {
-      font-size: 2rem;
-    }
-
-    .page-header {
-        margin-top: 25px;
-        margin-bottom: 80px ;
-    }
-
-    .rules{
-        margin-top: 15px;
-    }
-  }*/
-
   @media screen and (max-width: 500px) {
 
     body {
