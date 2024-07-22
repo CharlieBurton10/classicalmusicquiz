@@ -212,7 +212,7 @@ nav > a:hover {
 /* ----------------------------------------Media */
 
 
-@media screen and (max-width: 500px) {
+/*@media screen and (max-width: 480px) {
     h1 {
       font-size: 3rem;
     }
@@ -233,9 +233,9 @@ nav > a:hover {
     .rules{
         margin-top: 15px;
     }
-  }
+  }*/
 
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 500px) {
 
     body {
         height: 95vh;
