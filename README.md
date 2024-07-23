@@ -54,42 +54,42 @@ With a 40 questions spread over 2 levels of difficulty, easy or hard, the user w
 ## User Experience (UX)
 
 ### Site Goals
-* To be able to view the site on a range of device sizes.
+* I want the userbto be able to view the site on a range of device sizes.
 * I want the site to be attractive, responsive and easy to use for the user.
 * I want the site to work as intended incrementing the questions and score as the user progresses, with the timer going down for each question.
 * I want the user to have a varied choice of questions.
-* To make it user friendly and for all ages.
+* I want the site to be user friendly and for all ages.
 
 ### User Stories
 
-#### First Time Customers Goals
+#### First Time Visitor Goals
 
-* I want to find out what Waggy Tail Lodge offers.
+* I want to be able to understand the rules.
 * I want to be able to navigate the site easily to find information.
 * I want to be able to find their social media pages.
-* I want to be able to book a trial.
-* I want to be able to read about current customers reviews.
+* I want the game to be responsive to whichever device I am playing it on.
+* I want to be given a choice of varied questions.
 
-#### Returning Customers Goals
+#### Returning/Frequent Visitor Goals
 
-* I want to book online instead of phoning Waggy Tail Lodge - to help with ease.
-* I want to find up-to-date prices and special offers. 
-* I want to be able to easily follow them on social media pages to get dog updates.
+* I want to be able to progress on to the hard level.
+* I want to be given varied questions each time I play
+* I want to be able to easily follow them on social media pages.
 
 
 ## Design
 
 ### Colour Scheme
 
-![Waggy Tail Lodge Website Colour Palette](docs/colourpalette.png)
+![Classical Music Quiz Website Colour Palette](docs/colourpalette.png)
 
-The website uses a palette of shades of green, to imitate the grass that the dogs spend alot of time on. The colour palette was created using the [Coolors](https://coolors.co/) website.
+The website uses a palette of black and white to depict sheet music. The colour palette was created using the [Coolors](https://coolors.co/) website.
 
 ### Typography
 
-I have used EB Garamond from Google Fonts for this website. It is a serif font.
+I have used Open Sans from Google Fonts for this website. It is a serif font.
 
-![EB Garamond Font](docs/font.png)
+![Open Sans](docs/font.png)
 
 ### Imagery
 
@@ -192,7 +192,7 @@ All Pages on the website are responsive and have:
 
 * [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-* [TinyPNG](https://tinypng.com/) To compress images
+* [TinyPNG](https://tinypng.com/) To compress images.
 
 * [Image Resizer](https://imageresizer.com/)
 
