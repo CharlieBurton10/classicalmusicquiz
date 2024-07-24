@@ -106,9 +106,7 @@ Wireframes were created for mobile, tablet and desktop.
 
 ## Features
 
-The website is comprised of a home page, our services page, a contact & FAQ page & a book now.
-
-![Nav Wireframe](wireframe/nav.png)
+The website is comprised of a home page, a quiz page, a contact page & an end page.
 
 ### General features on each page
 
@@ -120,9 +118,9 @@ All Pages on the website are responsive and have:
 
 * All Pages on the website have:
 
-  * To the left of the site is their logo. To the right of the navigation bar are the links to the websites pages. 
+  * To the right of the navigation bar are the links to the websites pages. 
 
-    ![Logo and Nav](docs/logonav.png)
+    ![Nav](docs/nav.png)
 
   * In the middle is the Title and tag line.
 
@@ -134,38 +132,30 @@ All Pages on the website are responsive and have:
 
 * Home Page
 
-  * About Us - A photo and introduction to the owners.
-  * Our Facility - A carousel of photos that shows the facilities, followed by a description.
-  * Testimonals - Four reviews with photos of the indiviuals.
+  * Explains the rules of the game.
+  * Option buttons - for easy or hard quiz
 
-* Our Services
+* Quiz Page
 
-  * Day Care - a description on what is on offer.
-  * Boarding Care - a description on what is on offer.
-  * Daily Routine - a table with a daily routine.
-  * Price List - a list of prices.
-  * Special Offers - a description of special offers.
+  * Runs the quiz.
+  * Has a timer, question counter and score counter.
+  
+* Contact Page
 
-* Contact & FAQ
-  * Contact details - including address, phone numbers and email.
-  * Location - with a link to google maps.
-  * FAQ - a dropdown of frequent asked questions.
+  * Has a form for users to send us their comments.
 
-* Book Now!
-  * Subscribe to our Newsletter - pop up box with name and email to submit.
-  * Form - for booking Day, Boarding or a Trial.
+* End Page
+
+  * Gives user their final score.
+  * Offers them to retake current level or try a different level of quiz.
 
 ### Future Implementations
 
-* Link the website to a booking system database to help save customer details.
-* Link the website to a newsletter database.
-* Create a login for customers.
-* To be able to give a live calender with availbility for automatic confirmation.
-* Being able to take payments and desposits for the booking.
+* Add a leaderboard.
+* Add more questions.
 
 ### Accessibility
 
- * I have used the alt attirbutes on images.
  * I have made sure there is colour contrast on the site. 
  * I have used semantic HTML. 
  * I have used a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
@@ -174,7 +164,7 @@ All Pages on the website are responsive and have:
 
 ### Languages Used
 
-* HTML and CSS were used to create this website.
+* HTML, CSS and JavaScript were used to create this website.
 
 ### Frameworks, Libraries & Programs Used
 
@@ -192,9 +182,9 @@ All Pages on the website are responsive and have:
 
 * [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-* [TinyPNG](https://tinypng.com/) To compress images.
+* [TinyPNG](https://tinypng.com/) To compress image.
 
-* [Image Resizer](https://imageresizer.com/)
+* [Image Resizer](https://imageresizer.com/) To resize image.
 
 * [Favicon.io](https://favicon.io/) To create favicon.
 
@@ -209,7 +199,7 @@ All Pages on the website are responsive and have:
 Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
 1. Log in to Github.
-2. Find the repository for this project, waggytaillodge.
+2. Find the repository for this project, classicalmusicquiz.
 3. Click on the Settings button.
 4. Click on the Pages button in the left hand side bar.
 5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
@@ -221,22 +211,22 @@ The local development section gives instructions on how someone else could make 
 
 #### How to Fork
 
-To fork waggytaillodge repository:
+To fork classicalmusicquiz repository:
 
 1. Log in to Github.
-2. Go to the repository for this project, CharlieBurton10/waggytaillodge
+2. Go to the repository for this project, CharlieBurton10/classicalmusicquiz
 3. Click the Fork button at the top of the page between Watch and Starred.
 
 #### How to Clone
 
-To clone waggytaillodge repository:
+To clone classical music quiz repository:
 
 1. Log in to Github.
-2. Go to the repository for this project, CharlieBurton10/waggytaillodge
+2. Go to the repository for this project, CharlieBurton10/classicalmusicquiz
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then enter.
-6. Then paste link from step 3 ($ git clone https://github.com/CharlieBurton10/waggytaillodge) and then press enter.
+6. Then paste link from step 3 ($ git clone https://github.com/CharlieBurton10/classicalmusicquiz) and then press enter.
 
 ## Testing
 
