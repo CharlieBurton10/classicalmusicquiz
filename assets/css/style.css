@@ -61,7 +61,6 @@ nav > a:hover {
 
 .container {
     width: 100vw;
-    height: 100vh;
     max-width: 80rem;
     margin: 0 auto;
   }
@@ -84,7 +83,7 @@ nav > a:hover {
 }
 
 .rules{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .list {
@@ -171,6 +170,7 @@ nav > a:hover {
     text-align: center;
     width: 100%;
     height: auto;
+    margin-top: 30px;
 }
 
 .footer > span {
@@ -191,7 +191,7 @@ nav > a:hover {
 }
 
 /* ----------------------------------------Media */
-  @media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
 
     body {
         height: 100vh;
@@ -199,15 +199,18 @@ nav > a:hover {
 
     .page-header {
         margin-top: 40px;
-        margin-bottom: 50px ;
     }
 
     .rules{
-        margin-top: 45px;
+        margin-top: 35px;
+    }
+
+    .footer {
+        margin-top: 0px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
 
   body {
       height: 125vh;
@@ -223,7 +226,8 @@ nav > a:hover {
       font-size: small;
   }
   .footer {
-    margin-top: 80px;
+    margin-top: 0px;
+    font-size: small;
   }
     h1, h2 {
     font-size: 18px;
