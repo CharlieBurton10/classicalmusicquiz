@@ -31,10 +31,6 @@ h4 {
 }
  
 /*------------------------------------------ Heading */
-header {
-    margin: 0;
-    background-color: black;
-}
 
 h1{
     text-transform: uppercase;
@@ -68,16 +64,6 @@ nav > a:hover {
     height: 100vh;
     max-width: 80rem;
     margin: 0 auto;
-  }
-  
-  .flex-column {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .flex-center {
-    justify-content: center;
-    align-items: center;
   }
 
 /*------------------------------------------ Section */
@@ -265,8 +251,5 @@ nav > a:hover {
     font-size: 1.5rem;
     color: skyblue;
   }
-  
-  .hud-main-text {
-    text-align: center;
-  }
+
 
