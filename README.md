@@ -93,16 +93,16 @@ I have used Open Sans from Google Fonts for this website. It is a serif font.
 
 ### Imagery
 
-All imagery used within the site has been chosen to showcase the Waggy Tail Lodge. I created a new logo for the owners, as they asked for it to have a more modern look. I have credited these at the end.
+The background image has been been pick for it's classic look. I have credited this at the end.
 
 ### Wireframes
 
 Wireframes were created for mobile, tablet and desktop.
 
-![Home Page Wireframe](wireframe/home.png)
-![Our Services Page Wireframe](wireframe/ourservices.png)
-![Contact & FAQ Page Wireframe](wireframe/contact.png)
-![Book Now! Page Wireframe](wireframe/booknow.png)
+![Home Page Wireframe](docs/wireframes/home.png)
+![Quiz Page Wireframe](docs/wireframes/quiz.png)
+![Contact Page Wireframe](docs/wireframes/contact.png)
+![End Page Wireframe](docs/wireframes/end.png)
 
 ## Features
 
