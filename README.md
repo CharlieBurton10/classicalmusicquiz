@@ -232,15 +232,11 @@ To clone classical music quiz repository:
 
 Testing has been on going throughout the build with Chrome developer tools.
 
-My mentor on our mid project meeting discussed: 
-* My image files were to big for the website, so I have resized and croped to the aspect ratio and then optimized them.
-* There was problem that some of the images overlapped when checking that pages of the Website were responsive. This issue is documented as 2. under Solved Bugs.
-
 ### W3C Validator
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
-[Index Page HTML](docs/testing/w3cindex.png) - Passed but had 2 info points and then corrected them on the other pages.
+[Index Page HTML](docs/testing/w3cindex.png) - Passed
 
 [Our Services Page HTML](docs/testing/w3courservices.png) - 1 error on a stray div. Now deleted.
 
