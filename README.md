@@ -238,13 +238,9 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 [Index Page HTML](docs/testing/w3cindex.png) - Passed
 
-[Our Services Page HTML](docs/testing/w3courservices.png) - 1 error on a stray div. Now deleted.
+[Quiz Easy Level Page HTML](docs/testing/w3cquizeasy.pgn) - Passed
 
-[Contact & FAQ Page HTML](docs/testing/w3ccontact.png) - 1 error and 1 warning for the google map. This is documented as 3. under Solved Bugs.
 
-[Book Now! Page HTML](docs/testing/w3cindex.png) - Passed
-
-[style.css](docs/testing/w3ccss.png) - 1 error on a property that doesn't exist. Now deleted.
 
 ### Solved Bugs
 1. The About Us section on the home page was not fitting properly when it was on a medium screen. So I changed the bootstrap grid system to large.
@@ -311,41 +307,21 @@ On the Chrome developer tool, it comes up with 6 warnings and 24 verbose for the
 
 ## Credits
 
-### Code Used
+### Tutorials
 
-  * [Tutorial Republic to add pop up box on booknow.html](https://www.tutorialrepublic.com/faq/how-to-align-bootstrap-modal-vertically-center.php)
-  * [w3schools to help with carousel](https://www.w3schools.com/bootstrap/bootstrap_carousel.asp)
+*  [James Q Quick](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx) YouTube course was used to help me create this game. It provided a strong foundation to build on to help me achieve the results I wanted. 
 
-### Content
+###  Background Image
 
-Content for the website was written by myself.
+* [Freepik](https://img.freepik.com/free-vector/vector-abstract-musical-background-vector-illustration_206725-624.jpg?t=st=1721989267~exp=1721992867~hmac=2878b2832f83df143a5040ea248d5c22c5d3bd7c1e52420aad3349896554bd33&w=1380)
 
-###  Media
+### Quiz questions
 
-#### Header
-* [Alexas Fotos](https://www.pexels.com/photo/a-cute-dogs-running-on-green-grass-field-12874286/)
+* [Sporcle](https://www.sporcle.com/games/biggs364/classical-music-easy-to-hard)
 
-#### About Us
-* [Vladimir Konoplev](https://www.pexels.com/photo/couple-with-their-pet-dogs-11885342/)
-
-#### Our Facility
-* [Alvan Nee](https://unsplash.com/photos/two-brown-and-white-dogs-running-dirt-road-during-daytime-T-0EW-SEbsE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-* [Anna Dudkova](https://unsplash.com/photos/brown-and-white-dog-on-grass-urs_y9NwFcc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-* [Ayla Verschueren ](https://unsplash.com/photos/a-brown-and-white-dog-inside-of-a-cage-qvbG3-tZnyc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-* [Anthony Duran](https://unsplash.com/photos/black-and-white-american-pitbull-terrier-mix-puppy-on-water-eLUBGqKGdE4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-* [Gary Lee](https://unsplash.com/photos/a-dog-laying-in-the-grass-next-to-a-tennis-ball-4EEmLlEZdQ8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-
-#### Testimonials
-* [Christopher Campbell](https://unsplash.com/photos/shallow-focus-photography-of-woman-outdoor-during-day-rDEOVtE7vOs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-* [Y_K](https://unsplash.com/photos/woman-standing-on-concrete-stair-uZCY6vjHGmE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-* [Samanta Barba Alcalá](https://unsplash.com/photos/man-taking-selfie-wearing-white-dress-shirt-QwNUkiDxjbo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-* [Carly Rae Hobbins](https://unsplash.com/photos/woman-riding-on-back-of-man-zNHOIzjJiyA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-
-#### Our Services
-* [Janosch Diggelmann](https://unsplash.com/photos/black-and-white-short-coated-small-dog-on-blue-and-white-textile-6mNIZRnTSRE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
   
 ###  Acknowledgments
 
- * My Code Institute Mentor, Can Sucullu for his helpful feedback 
+ * My Code Institute Mentor, Can Sucullu for his helpful feedback and support.
+ * Subsitute Code Insistue Mentor, Tim Nelson for his helpful feedback and support.
  * Tutor Support at Code Institute.
- * [Kera Cudmore](https://github.com/kera-cudmore) - For her readme-examples on Creating your first ReadMe.
