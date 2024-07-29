@@ -307,17 +307,21 @@ On the Chrome developer tool, it comes up with 6 warnings and 24 verbose for the
 
 ## Credits
 
+### Code Used
+
+* [SitePoint](https://www.sitepoint.com/simple-javascript-quiz/#thebasicstructureofyourjavascriptquiz) Countdown timer for the quiz.
+
 ### Tutorials
 
 *  [James Q Quick](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx) YouTube course was used to help me create this game. It provided a strong foundation to build on to help me achieve the results I wanted. 
 
 ###  Background Image
 
-* [Freepik](https://img.freepik.com/free-vector/vector-abstract-musical-background-vector-illustration_206725-624.jpg?t=st=1721989267~exp=1721992867~hmac=2878b2832f83df143a5040ea248d5c22c5d3bd7c1e52420aad3349896554bd33&w=1380)
+* [Freepik](https://img.freepik.com/free-vector/vector-abstract-musical-background-vector-illustration_206725-624.jpg?t=st=1721989267~exp=1721992867~hmac=2878b2832f83df143a5040ea248d5c22c5d3bd7c1e52420aad3349896554bd33&w=1380) Image by almumtazza on Freepik.
 
 ### Quiz questions
 
-* [Sporcle](https://www.sporcle.com/games/biggs364/classical-music-easy-to-hard)
+* [Sporcle](https://www.sporcle.com/games/biggs364/classical-music-easy-to-hard) Questions for both easy and hard.
 
   
 ###  Acknowledgments

@@ -19,6 +19,8 @@ let level = params.get("level");
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 5;
 
+// Used James Q Quick video on YouTube for reference-link can be found in credits section of README file
+
 if (level === "easy"){
     questions = easyquestions;
     startGame();
@@ -85,7 +87,6 @@ choices.forEach((choice) => {
 
         acceptingAnswers = false;
         const selectedChoice = e.target;
-        console.log(selectedChoice)
         const selectedAnswer = selectedChoice.dataset['number'];
 
         // Applies css styling for right or wrong answers choosen 
