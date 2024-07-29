@@ -149,6 +149,9 @@ All Pages on the website are responsive and have:
   * Gives user their final score.
   * Offers them to retake current level or try a different level of quiz.
 
+* 404.html
+  * Redirects the user back to index.html to prevent them having to press the browser back button for better experience.
+
 ### Future Implementations
 
 * Add a leaderboard.
@@ -249,53 +252,39 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 
 ### Solved Bugs
-1. The About Us section on the home page was not fitting properly when it was on a medium screen. So I changed the bootstrap grid system to large.
-2. The images when on a medium device were overlapping with text. I fixed this by changing the bootstrap grid system from small to medium.
-![Responsive Issue](docs/testing/responsiveissue.png) ![Resolved Issue](docs/testing/resolvedissue.png)
-3. I had adjusted the Google Maps width to 100% to make the page responsive. The error was the % sign on the iframe code. I have reinserted a new link to Google Maps to clear the error and then put a paragraph aboud the iframe to be able to center the map allowing it to be more responsive. For the warning I just changed the section to a div.
 
-### Known Bugs
+1. The below error was occuring on the console. I tried to fix the bug and also googled how to resolve it, as I had already made MAX_QUESTIONS a Const. I ended up talking to my subsitute mentor Tim about the bug. The bug was happening because the if/else statement for the page parameters "level" is above the const variables, so it was calling startGame() which calls getNewQuestion() before the const vars are added. I was able to fix the bug by moving the if/else statement below the const stuff, so that let  and const are above everything else.
+![Console error](docs/testing/consoleerror.png)
+![Code before error was fixed](docs/testing/consoleerrorcode.png)
 
-On the Chrome developer tool, it comes up with 6 warnings and 24 verbose for the Google Maps link. The 6 warnings are regarding third party cookies will be blocked. The 28 verbose are for "Added non-passive event listener to a scroll-blocking event. Consider marking event handler as 'passive' to make the page more responsive." When researching and looking on slack I was unable to find a solution without using JavaScript. As I don't have any experience so far with JavaScript this is currently unable to implement, but would be able to update it in the future.
+2. The below error was occuring on the console for both the index.html and end.html page but not for the quiz.html page. 
 
-![Google Maps Error](docs/testing/googlemapserror.png)
+![TypeError](docs/testing/typeerror.jpg)
+
 
 ### Testing User Stories
 
-#### First Time Customers Goals
+#### First Time Visitor Goals
 
-* I want to find out what Waggy Tail Lodge offers.
-    * Our Services page explains what the Waggy Tail Lodge offers including prices and specials.
-
+* I want to be able to understand the rules.
+  * 
 * I want to be able to navigate the site easily to find information.
-    * All site navigation is in the top right corner on every page of the website.
+  * All site navigation is in the top right corner on every page of the website.
 
-    ![Nav bar](docs/logonav.png)
+  ![Nav](docs/nav.png)
 * I want to be able to find their social media pages.
-    * In the footer on every page sits links to the social media pages.
+   * In the footer on every page sits links to the social media pages.
 
-    ![Social Media links](docs/footer.png)
-* I want to be able to book a trial.
-    * On the Book Now! page this is an option to select what you are booking.
+  ![Social Media links](docs/footer.png)
+* I want the game to be responsive to whichever device I am playing it on.
+* I want to be given a choice of varied questions.
 
-    ![How to book a Trial](docs/testing/trialbooknow.png)
-* I want to be able to read about current customers reviews.
-    * On the Home page there are some testimonials from 4 customers.
+#### Returning/Frequent Visitor Goals
 
-    ![Testimonials](docs/testing/testimonials.png)
-
-#### Returning Customer Goals
-
-* I want to book online instead of phoning Waggy Tail Lodge - to help with ease.
-    * On the nav bar is a Book Now! button that takes them to a form to complete with details of the booking.
-
-    ![Book Now form](docs/testing/booknow.png)
-* I want to find up-to-date prices and special offers. 
-    * On the Our Services page, the prices and specials offers sit.
-
-    ![Prices & Special Offers](docs/testing/pricesoffers.png)
-* I want to be able to easily follow them on social media pages to get dog updates.
-    * In the footer on every page sits links to the social media pages.
+* I want to be able to progress on to the hard level.
+* I want to be given varied questions each time I play
+* I want to be able to easily follow them on social media pages.
+     * In the footer on every page sits links to the social media pages.
 
     ![Social Media links](docs/footer.png)
 
