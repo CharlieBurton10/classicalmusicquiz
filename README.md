@@ -240,6 +240,12 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 [Quiz Easy Level Page HTML](docs/testing/w3cquizeasy.pgn) - Passed
 
+[Quiz Hard Level Page HTML](docs/testing/w3cquizhard.pgn) - Passed
+
+[End Quiz Page HTML](docs/testing/w3cquizend.pgn) - 1 warning for an empty heading. This has now been given a value.
+
+[Contact Page HTML](docs/testing/w3ccontact.png) - Passed
+
 
 
 ### Solved Bugs
