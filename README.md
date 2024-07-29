@@ -73,7 +73,7 @@ With a 40 questions spread over 2 levels of difficulty, easy or hard, the user w
 #### Returning/Frequent Visitor Goals
 
 * I want to be able to progress on to the hard level.
-* I want to be given varied questions each time I play
+* I want to be given varied questions each time I play.
 * I want to be able to easily follow them on social media pages.
 
 
@@ -249,7 +249,9 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 [Contact Page HTML](docs/testing/w3ccontact.png) - Passed
 
+[404 Page HTML](docs/testing/w3c404.png) - Passed
 
+[CSS](docs/testing/w3ccss.png) - Passed
 
 ### Solved Bugs
 
@@ -257,47 +259,60 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 ![Console error](docs/testing/consoleerror.png)
 ![Code before error was fixed](docs/testing/consoleerrorcode.png)
 
-2. The below error was occuring on the console for both the index.html and end.html page but not for the quiz.html page. 
-
+2. The below error was occuring on the console for both the index.html and end.html page but not for the quiz.html page. This occured because the timer was trying to. start with the index.html and end.html page. I ended up putting the timer and quiz in a seperate javaScript file called quiz.js which solved this bug.
 ![TypeError](docs/testing/typeerror.jpg)
-
 
 ### Testing User Stories
 
 #### First Time Visitor Goals
 
 * I want to be able to understand the rules.
-  * 
+  * The rules for the quiz are sat on the home page.
+
+  ![Rules](docs/rules.png)
 * I want to be able to navigate the site easily to find information.
   * All site navigation is in the top right corner on every page of the website.
 
   ![Nav](docs/nav.png)
 * I want to be able to find their social media pages.
-   * In the footer on every page sits links to the social media pages.
+  * In the footer on every page sits links to the social media pages.
 
   ![Social Media links](docs/footer.png)
 * I want the game to be responsive to whichever device I am playing it on.
+  * I have checked that the quiz is responsive on multiple devices.
+
 * I want to be given a choice of varied questions.
+  * I have given 20 questions for each level which are randomly choosen for the visitor of the quiz.
 
 #### Returning/Frequent Visitor Goals
 
 * I want to be able to progress on to the hard level.
-* I want to be given varied questions each time I play
+  * I have given the user the option at the end of the game to either retake the easy levle or progress to the hard level.
+
+  ![End of Quiz](docs/end.png)
+* I want to be given varied questions each time I play.
+  * I have given 20 questions for each level which are randomly choosen for the visitor of the quiz.
+
 * I want to be able to easily follow them on social media pages.
-     * In the footer on every page sits links to the social media pages.
+  * In the footer on every page sits links to the social media pages.
 
     ![Social Media links](docs/footer.png)
+
+### Performance Testing
+
+* [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website. 
+
+|     Page     |     Mobile    |    Desktop    |
+| ------------ | ------------- | ------------- |
+|  index.html  | [Result](docs/testing/lighthouse/indexmobile.png) | [Result](docs/testing/lighthouse/indexdesktop.png)  
+|  quiz.html   | Content Cell  | Content Cell  
+
 
 ### Further Testing
 
  * The website was tested on Google Chrome, Safari and Microsoft Edge browsers.
  * The website was tested on multiple devices: Desktop, Mackbook 14inch, iPad Pro and iPhone 14.
  * All browsers and devices were tested on all pages to make sure all the pages and links are working properly.
-
- #### Testing Forms
-
- 1. Tested the Subscribe to our Newsletter and Book Now! forms and both need linking to a database.
- 2. I tried to test the Book Now! form it requires one of the custom radio buttons to be selected, and all other fields to be completed to be able to submit the form, except 2nd Dog Name and 3rd Dog Name as not every customer will be checking in more than 1 dog.
 
 
 ## Credits
