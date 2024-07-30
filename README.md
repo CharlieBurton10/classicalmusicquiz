@@ -300,12 +300,14 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 ### Performance Testing
 
-* [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website. 
+[Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website. 
 
-|     Page     |     Mobile    |    Desktop    |
-| ------------ | ------------- | ------------- |
-|  index.html  | [Result](docs/testing/lighthouse/indexmobile.png) | [Result](docs/testing/lighthouse/indexdesktop.png)  
-|  quiz.html   | Content Cell  | Content Cell  
+|     Page      |     Mobile    |    Desktop    |
+| ------------  | ------------- | ------------- |
+|  index.html   |    [Result](docs/testing/lighthouse/indexmobile.png)   |    [Result](docs/testing/lighthouse/indexdesktop.png)  | 
+|  quiz.html    |    [Result](docs/testing/lighthouse/quizmobile.png)    |    [Result](docs/testing/lighthouse/quizdesktop.png)   | 
+|  end.html     |    [Result](docs/testing/lighthouse/endmobile.png)     |    [Result](docs/testing/lighthouse/enddesktop.png)    |  
+|  contact.html |    [Result](docs/testing/lighthouse/contactmobile.png) |    [Result](docs/testing/lighthouse/indexdesktop.png)  | 
 
 
 ### Further Testing
