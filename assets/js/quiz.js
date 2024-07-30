@@ -35,8 +35,7 @@ function startGame() {
     score = 0;
     availableQuestions = [...questions];
     getNewQuestion();
-    setTimer = true;
-};
+}
 
 // Countdown timer for quiz
 var timeLeft = 45;
@@ -78,7 +77,7 @@ function getNewQuestion(){
 
     availableQuestions.splice(questionIndex, 1);
     acceptingAnswers = true;
-};
+}
 
 // Goes through all choices and attaching a click event to them
 choices.forEach((choice) => {
@@ -109,4 +108,4 @@ choices.forEach((choice) => {
 function incrementScore(num) {
     score += num;
     scoreText.innerText = score;
-};
+}

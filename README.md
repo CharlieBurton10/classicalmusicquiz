@@ -11,6 +11,8 @@
 
 ## CONTENTS
 * [Rationale](#rationale)
+  * [Project Introduction](#project-introduction)
+  * [Motivation and Inspiration](#motivation-and-inspiration)
 
 * [User Experience](#user-experience-ux)
   * [Site Goals](#site-goals)
@@ -47,9 +49,20 @@
 
 ---
 ## Rationale
-An opportunity to test and enhance your classical music with this 2 level quiz. Whether you are a beginner or and experienced musician, this quiz is designed to challenge and help expand your classical music knowledge. 
 
-With a 40 questions spread over 2 levels of difficulty, easy or hard, the user will be given a random 5 questions, worth 10 points a question and 45 seconds to complete the quiz.
+### Project Introduction
+An opportunity to test and enhance your classical music with this 2 level quiz. Whether you are a beginner or an experienced musician, this quiz is designed to challenge and help expand your classical music knowledge. The quiz has 40 questions spread over 2 levels of difficulty, easy or hard, the user will be given a random 5 questions, worth 10 points a question and 45 seconds to complete the quiz. The timer that has been added to encourage the user to think fast under time pressure.
+
+### Motivation and Inspiration
+Music is a part of everday life and has a significant impact on us all as humans. Classical music, in particular, is used for many aspects of media and advertising and whilst people may propose that they have little or no knowledge of the idiom, they are subjected to it frequently. This quiz provides the opportunity for the player to test their knoweledge at various levels.
+
+The inspiration for creating this quiz is to produce a quiz that is accessible to all rather than just classical music fans, by doing so I hope to inspire those who have a limited knowledge of the genre to become more interested in it.
+
+### Project Scope and Limitations
+
+The scope of the project includes the creation of an online classical quiz with the features focusing on usability on mulitple devices and accessbility for anyone to be able to take part.
+
+The known limitation is the quiz currently only has 40 questions spread over 2 levels of difficulty, easy or hard. So after playing the quiz a few time the visitor would start seeing some of the same questions. To solve this limitation I would expand the number of questions in both the easy and hard js files and potentially add a medium level of difficulty.
 
 ## User Experience (UX)
 
@@ -68,6 +81,7 @@ With a 40 questions spread over 2 levels of difficulty, easy or hard, the user w
 * I want to be able to navigate the site easily to find information.
 * I want to be able to find their social media pages.
 * I want the game to be responsive to whichever device I am playing it on.
+* I want to be under pressure and make the game timed.
 * I want to be given a choice of varied questions.
 
 #### Returning/Frequent Visitor Goals
@@ -281,13 +295,17 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 * I want the game to be responsive to whichever device I am playing it on.
   * I have checked that the quiz is responsive on multiple devices.
 
+* I want to be under pressure and make the game timed.
+  * I have added a time for the quiz to be completed in 45 seconds.
+
+![Timer](docs/timer.png)  
 * I want to be given a choice of varied questions.
   * I have given 20 questions for each level which are randomly choosen for the visitor of the quiz.
 
 #### Returning/Frequent Visitor Goals
 
 * I want to be able to progress on to the hard level.
-  * I have given the user the option at the end of the game to either retake the easy levle or progress to the hard level.
+  * I have given the user the option at the end of the game to either retake the easy level or progress to the hard level.
 
   ![End of Quiz](docs/end.png)
 * I want to be given varied questions each time I play.
@@ -315,6 +333,26 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
  * The website was tested on Google Chrome, Safari and Microsoft Edge browsers.
  * The website was tested on multiple devices: Desktop, Mackbook 14inch, iPad Pro and iPhone 14.
  * All browsers and devices were tested on all pages to make sure all the pages and links are working properly.
+
+### Manual Testing
+
+#### All pages
+Feature | Expected Outcome	| Testing Performed |	Result	| Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Nav links:hover | Text change colour when links are hovered | Hovered over each header link | Colour changed | Pass |
+| Nav links| Launches / Resets Home and Contact Page| Clicked the Nav Links| Home or Contact page launched | Pass |
+| "Easy" Button | Launches Easy game on click / enter press | Clicked "Easy" button | Easy Game launched | Pass | 
+| "Hard" Button | Launches Hard game on click / enter press | Clicked "Hard" button | Hard Game launched | Pass | 
+| Social Media links| Text change colour when links are hovered | Hovered over each header link | Colour changed | Pass |
+
+#### quiz.html
+Feature | Expected Outcome	| Testing Performed |	Result	| Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Answers:hover | Background change colour when the mouse hovers | Hovered over any answer | Colour changed | Pass |
+| Answers:clicked | Background change colour when clicked | Clicked any answer | Colour changed green for correct answer and red for wrong answer  | Pass |
+| Answers:clicked | New question appears| Clicked an answer | Next question appeared | Pass |
+| Timer alert | Timer alert when timer runs out | Let the timer run out | Alert boxed launched with "OK" button | Pass |
+| "OK" alert button | Resets quiz | Clicked "OK" button | Reset quiz | Pass |
 
 
 ## Credits
