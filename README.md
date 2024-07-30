@@ -13,6 +13,7 @@
 * [Rationale](#rationale)
   * [Project Introduction](#project-introduction)
   * [Motivation and Inspiration](#motivation-and-inspiration)
+  * [Project Scope and Limitations](#project-scope-and-limitations)
 
 * [User Experience](#user-experience-ux)
   * [Site Goals](#site-goals)
@@ -40,11 +41,18 @@
     * [How to Clone](#how-to-clone)
 
 * [Testing](#testing)
+  * [W3C Validator](#w3c-validator)
+  * [Solved Bugs](#solved-bugs)
+  * [Testing User Stories](#testing-user-stories)
+  * [Performance Testing](#performance-testing)
+  * [Further Testing](#further-testing)
+  * [Manual Testing](#manual-testing)
 
 * [Credits](#credits)
   * [Code Used](#code-used)
-  * [Content](#content)
-  * [Media](#media)
+  * [Tutorials](#tutorials)
+  * [Background Image](#background-image)
+  * [Quiz Questions](#quiz-questions)
   * [Acknowledgments](#acknowledgments)
 
 ---
