@@ -361,7 +361,12 @@ Feature | Expected Outcome	| Testing Performed |	Result	| Pass/Fail |
 | Answers:clicked | New question appears| Clicked an answer | Next question appeared | Pass |
 | Timer alert | Timer alert when timer runs out | Let the timer run out | Alert boxed launched with "OK" button | Pass |
 | "OK" alert button | Resets quiz | Clicked "OK" button | Reset quiz | Pass |
+| 5 questions answered | end.html launched with final score | Completed quiz answering 5 questions | end.html appeared | Pass
 
+#### contact.html
+Feature | Expected Outcome	| Testing Performed |	Result	| Pass/Fail |
+| --- | --- | --- | --- | --- |
+All fields on form required | Hint to let user there is an empty field | Tried leaving field empty and then clicked submit |Prompt "Please fill in this field" | Pass 
 
 ## Credits
 
